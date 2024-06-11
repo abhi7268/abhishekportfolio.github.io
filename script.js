@@ -12,3 +12,5 @@ ScrollReveal().reveal('#skills', { delay: 200 });
 ScrollReveal().reveal('#education', { delay: 200 });
 ScrollReveal().reveal('#projects', { delay: 200 });
 ScrollReveal().reveal('#contact', { delay: 200 });
+
+  

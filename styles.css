@@ -66,6 +66,7 @@ section p, section ul {
 #projects .container-fluid {
     padding-left: 0;
     padding-right: 0;
+    justify-content: center;
 }
 
 #projects .col-12 {
@@ -78,16 +79,23 @@ section p, section ul {
 }
 
 #projects .card-body {
-    max-width: 100%;
-    width: 100%;
+    max-width: 30%;
+    width: 50%;
 }
 
 #projects img {
     max-width: 50%;
     height: auto;
+    align-items: right;
 }
 
 #projects ul {
     list-style-type: none;
     padding-left: 0;
 }
+body.dark-mode {
+    background-color: #121212;
+    color: #7c2828;
+  }
+  
+  
