@@ -14,23 +14,49 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: #f8f9fa;
-    background-image: url(''); /* Add your background image here */
     background-size: cover;
+    padding: 20px;
+}
+
+header h1, header h2, header p, header .btn {
+    margin: 30px 0;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    color: #000;
 }
 
-header .typed {
-    color: #ff6347;
-    font-weight: bold;
+header h2 {
+    font-size: 2.5rem;
+    color: #000;
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+header .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
 }
 
 .social-icons a {
     color: #000;
-    margin: 0 10px;
+    margin: 10px;
     font-size: 1.5rem;
 }
 
@@ -40,24 +66,21 @@ footer {
 }
 
 section {
-    padding: 60px 0;
+    padding: 60px 20px;
 }
 
-section h2  {
+section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    width: 100%; /* Set paragraph width to 100% */
-    text-align: justify; /* Justify text for a clean appearance */
-}
-section h5 {
-    width: 100%; /* Set paragraph width to 100% */
-    text-align: justify; /* Justify text for a clean appearance */
+    text-align: justify;
 }
 
-section p, section ul {
+section h5,
+section p,
+section ul {
     font-size: 1.1rem;
-    width: 100%; /* Set paragraph width to 100% */
-    text-align: justify; /* Justify text for a clean appearance */
+    text-align: justify;
+    width: 100%;
 }
 
 .card {
@@ -71,11 +94,11 @@ section p, section ul {
 .card-text {
     font-size: 0.9rem;
 }
-/* Adjustments for Projects Section */
+
 /* Projects Section Styles */
 #projects .container-fluid {
-    padding-left: 15px; /* Add left padding to offset container padding */
-    padding-right: 15px; /* Add right padding to offset container padding */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #projects .card {
@@ -83,115 +106,71 @@ section p, section ul {
 }
 
 #projects .card-body {
-    max-width: 80%; /* Adjust max-width for better responsiveness */
-    width: 100%; /* Ensure full width on smaller screens */
-    margin: 0 auto; /* Center align card body */
-    text-align: center; /* Center align text */
-}
-
-#projects img {
-    max-width: 100%; /* Ensure images are fully responsive */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove any default image alignment */
-    margin: 0 auto 15px; /* Center align images with bottom margin */
-}
-
-#projects ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-/* Projects Section Styles */
-#projects .container-fluid {
-    padding-left: 15px; /* Add left padding to offset container padding */
-    padding-right: 15px; /* Add right padding to offset container padding */
-}
-
-#projects .card {
+    max-width: 80%;
     width: 100%;
-}
-
-#projects .card-body {
-    max-width: 80%; /* Adjust max-width for better responsiveness */
-    width: 100%; /* Ensure full width on smaller screens */
-    margin: 0 auto; /* Center align card body */
-    text-align: center; /* Center align text */
+    margin: 0 auto;
+    text-align: center;
 }
 
 #projects img {
-    max-width: 100%; /* Ensure images are fully responsive */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove any default image alignment */
-    margin: 0 auto 15px; /* Center align images with bottom margin */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
 }
 
 #projects ul {
     list-style-type: none;
     padding-left: 0;
 }
-/* Projects Section Styles */
-#projects .container-fluid {
-    padding-left: 15px; /* Add left padding to offset container padding */
-    padding-right: 15px; /* Add right padding to offset container padding */
+
+#projects p {
+    text-align: justify;
 }
 
-#projects .card {
-    width: 100%;
-}
-
-#projects .card-body {
-    max-width: 80%; /* Adjust max-width for better responsiveness */
-    width: 100%; /* Ensure full width on smaller screens */
-    margin: 0 auto; /* Center align card body */
-    text-align: center; /* Center align text */
-}
-
-#projects img {
-    max-width: 100%; /* Ensure images are fully responsive */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove any default image alignment */
-    margin: 0 auto 15px; /* Center align images with bottom margin */
-}
-
-#projects ul {
-    list-style-type: none;
-    padding-left: 0;
-    width: 100%; /* Set paragraph width to 100% */
-    text-align: justify; /* Justify text for a clean appearance */
-}
-/* Projects Section Paragraph Styles */
-
-
-
-
-/* Other Adjustments */
+/* Responsive Adjustments */
 @media (max-width: 768px) {
     header {
-        height: auto; /* Adjust header height for smaller screens */
+        height: auto;
+        padding: 40px 20px;
     }
 
     header h1 {
-        font-size: 2rem; /* Decrease font size for smaller screens */
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 1.2rem;
+    }
+
+    header .btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
     }
 
     .social-icons a {
-        font-size: 1.2rem; /* Decrease font size for smaller screens */
+        font-size: 1.2rem;
     }
 
     section h2 {
-        font-size: 1.8rem; /* Decrease font size for smaller screens */
+        font-size: 1.8rem;
     }
 
-    section p, section ul {
-        font-size: 1rem; /* Decrease font size for smaller screens */
+    section p,
+    section ul {
+        font-size: 1rem;
     }
 }
 
 body.dark-mode {
     background-color: #121212;
     color: #7c2828;
-  }
-  html {
-    scroll-behavior: smooth;
 }
 
-  
+html {
+    scroll-behavior: smooth;
+}
