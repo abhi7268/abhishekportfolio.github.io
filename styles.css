@@ -97,5 +97,8 @@ body.dark-mode {
     background-color: #121212;
     color: #7c2828;
   }
-  
+  html {
+    scroll-behavior: smooth;
+}
+
   
