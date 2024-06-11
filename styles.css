@@ -63,7 +63,8 @@ section p, section ul {
 .card-text {
     font-size: 0.9rem;
 }
-
+/* Adjustments for Projects Section */
+/* Projects Section Styles */
 #projects .container-fluid {
     padding-left: 15px; /* Add left padding to offset container padding */
     padding-right: 15px; /* Add right padding to offset container padding */
@@ -92,17 +93,8 @@ section p, section ul {
     padding-left: 0;
 }
 
-/* Dark Mode */
-body.dark-mode {
-    background-color: #121212;
-    color: #7c2828;
-}
 
-html {
-    scroll-behavior: smooth;
-}
-
-/* Media Queries */
+/* Other Adjustments */
 @media (max-width: 768px) {
     header {
         height: auto; /* Adjust header height for smaller screens */
@@ -124,3 +116,13 @@ html {
         font-size: 1rem; /* Decrease font size for smaller screens */
     }
 }
+
+body.dark-mode {
+    background-color: #121212;
+    color: #7c2828;
+  }
+  html {
+    scroll-behavior: smooth;
+}
+
+  
