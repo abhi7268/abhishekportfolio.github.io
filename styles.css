@@ -43,13 +43,21 @@ section {
     padding: 60px 0;
 }
 
-section h2 {
+section h2  {
     font-size: 2rem;
     margin-bottom: 20px;
+    width: 100%; /* Set paragraph width to 100% */
+    text-align: justify; /* Justify text for a clean appearance */
+}
+section h5 {
+    width: 100%; /* Set paragraph width to 100% */
+    text-align: justify; /* Justify text for a clean appearance */
 }
 
 section p, section ul {
     font-size: 1.1rem;
+    width: 100%; /* Set paragraph width to 100% */
+    text-align: justify; /* Justify text for a clean appearance */
 }
 
 .card {
@@ -92,6 +100,67 @@ section p, section ul {
     list-style-type: none;
     padding-left: 0;
 }
+/* Projects Section Styles */
+#projects .container-fluid {
+    padding-left: 15px; /* Add left padding to offset container padding */
+    padding-right: 15px; /* Add right padding to offset container padding */
+}
+
+#projects .card {
+    width: 100%;
+}
+
+#projects .card-body {
+    max-width: 80%; /* Adjust max-width for better responsiveness */
+    width: 100%; /* Ensure full width on smaller screens */
+    margin: 0 auto; /* Center align card body */
+    text-align: center; /* Center align text */
+}
+
+#projects img {
+    max-width: 100%; /* Ensure images are fully responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default image alignment */
+    margin: 0 auto 15px; /* Center align images with bottom margin */
+}
+
+#projects ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+/* Projects Section Styles */
+#projects .container-fluid {
+    padding-left: 15px; /* Add left padding to offset container padding */
+    padding-right: 15px; /* Add right padding to offset container padding */
+}
+
+#projects .card {
+    width: 100%;
+}
+
+#projects .card-body {
+    max-width: 80%; /* Adjust max-width for better responsiveness */
+    width: 100%; /* Ensure full width on smaller screens */
+    margin: 0 auto; /* Center align card body */
+    text-align: center; /* Center align text */
+}
+
+#projects img {
+    max-width: 100%; /* Ensure images are fully responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default image alignment */
+    margin: 0 auto 15px; /* Center align images with bottom margin */
+}
+
+#projects ul {
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%; /* Set paragraph width to 100% */
+    text-align: justify; /* Justify text for a clean appearance */
+}
+/* Projects Section Paragraph Styles */
+
+
 
 
 /* Other Adjustments */
