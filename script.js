@@ -13,4 +13,9 @@ ScrollReveal().reveal('#education', { delay: 200 });
 ScrollReveal().reveal('#projects', { delay: 200 });
 ScrollReveal().reveal('#contact', { delay: 200 });
 
-  
+var typed = new Typed('#typed', {
+    strings: ['Web Developer', 'Tech Enthusiast', 'Problem Solver'],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true
+});
